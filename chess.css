@@ -1,0 +1,5 @@
+/* .boardSquare    {} */
+
+#blackSquare   {background-color: black; width: 5vw; height: 5vw;}
+
+#whiteSquare   {background-color: grey; width: 5vw; height: 5vw;}

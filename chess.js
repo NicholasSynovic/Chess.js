@@ -2,7 +2,6 @@ const chessBoard = document.getElementById("chessBoard")
 const chessBoardRows = document.getElementsByClassName("chessBoardRow")
 const files = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
-
 function makeBoard() {
     for (rowCount = 0; rowCount < 8; rowCount++) {
         var chessBoardRow = document.createElement("tr")

@@ -2,12 +2,14 @@ const chessBoard = document.getElementById("chessBoard")
 const chessBoardRows = document.getElementsByClassName("chessBoardRow")
 const files = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
-var fideBoard = getFIDEChessBoard()
+let boardState = null
 
-async function getFIDEChessBoard() {
-    let request = await fetch("https://nicholassynovic.github.io/Chess.js/files/fide.json")
-    let response = await request.json()
-    return response
+function getFIDEInitialBoardState() {
+    var request = new XMLHttpRequest()
+    // Synchronously sends the request
+    request.open('GET', 'https://nicholassynovic.github.io/Chess.js/files/fide.json', false)
+    request.send()
+    return JSON.parse(request.response)
 }
 
 function makeBoard() {
@@ -49,4 +51,4 @@ function _chessBoardSquareAdder(rankNode, startingColorID, nextColorID, rank) {
 }
 
 makeBoard()
-console.log(fideBoard)
+boardState = getFIDEInitialBoardState()

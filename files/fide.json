@@ -1,210 +1,212 @@
-{
-    "a": [
-        {
-            "currentPiece": "♜"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♖"
-        }
-    ],
-    "b": [
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "♞"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♘"
-        }
-    ],
-    "c": [
-        {
-            "currentPiece": "♝"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♗"
-        }
-    ],
-    "d": [
-        {
-            "currentPiece": "♛"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♕"
-        }
-    ],
-    "e": [
-        {
-            "currentPiece": "♚"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♔"
-        }
-    ],
-    "f": [
-        {
-            "currentPiece": "♝"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♗"
-        }
-    ],
-    "g": [
-        {
-            "currentPiece": "♞"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♘"
-        }
-    ],
-    "h": [
-        {
-            "currentPiece": "♜"
-        },
-        {
-            "currentPiece": "♟︎"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "♙"
-        },
-        {
-            "currentPiece": "♖"
-        }
-    ]
-}
+[
+    {
+        "a": [
+            {
+                "currentPiece": "♜"
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♖"
+            }
+        ],
+        "b": [
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": "♞"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♘"
+            }
+        ],
+        "c": [
+            {
+                "currentPiece": "♝"
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♗"
+            }
+        ],
+        "d": [
+            {
+                "currentPiece": "♛"
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♕"
+            }
+        ],
+        "e": [
+            {
+                "currentPiece": "♚"
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♔"
+            }
+        ],
+        "f": [
+            {
+                "currentPiece": "♝"
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♗"
+            }
+        ],
+        "g": [
+            {
+                "currentPiece": "♞"
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♘"
+            }
+        ],
+        "h": [
+            {
+                "currentPiece": "♜"
+            },
+            {
+                "currentPiece": "♟︎"
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": ""
+            },
+            {
+                "currentPiece": "♙"
+            },
+            {
+                "currentPiece": "♖"
+            }
+        ]
+    }
+]

@@ -2,7 +2,7 @@
     font-size: larger;
 }
 
-/* .boardSquare    {} */
+.boardSquare    {text-align: center; vertical-align: middle;}
 
 #brownSquare   {background-color: brown; width: 5vw; height: 5vw;}
 

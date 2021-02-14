@@ -30,20 +30,23 @@ function makeBoard() {
 }
 
 
+/**
+ * Takes a board state and adds the pieces to the board
+ * @param {JSON} boardState
+ */
 function placePieces(boardState) {
     boardState = boardState[0]
     for (file in boardState) {
         for (rank in boardState[file]) {
             const boardSquareClass = file + rank
             document.getElementsByClassName(boardSquareClass)[0].innerHTML = boardState[file][rank]["currentPiece"]
-
         }
     }
 }
 
 
 /**
- *
+ * Appends the board sqaures to the DOM
  * @param {Node} rankNode
  * @param {String} startingColorID
  * @param {String} nextColorID

@@ -1,9 +1,22 @@
 *   {
     font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table   {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* .boardSquare    {} */
 
-#brownSquare   {background-color: brown; width: 5vw; height: 5vw; text-align: center; vertical-align: middle;}
+#brownSquare   {
+    background-color: brown;
+    width: 5vw; height: 5vw;
+}
 
-#greySquare   {background-color: grey; width: 5vw; height: 5vw; text-align: center; vertical-align: middle;}
+#greySquare   {
+    background-color: grey;
+    width: 5vw;
+}

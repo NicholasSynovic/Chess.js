@@ -11,10 +11,10 @@ function makeBoard() {
 
     for (index = 0; index < chessBoardRows.length; index++) {
         if (index % 2 == 0) {
-            _chessBoardSquareAdder(chessBoardRows[index], "blackSquare", "whiteSquare", index)
+            _chessBoardSquareAdder(chessBoardRows[index], "brownSquare", "greySquare", index)
         }
         else {
-            _chessBoardSquareAdder(chessBoardRows[index], "whiteSquare", "blackSquare", index)
+            _chessBoardSquareAdder(chessBoardRows[index], "greySquare", "brownSquare", index)
         }
     }
 }

@@ -29,6 +29,19 @@ function makeBoard() {
     }
 }
 
+
+function placePieces(boardState) {
+    boardState = boardState[0]
+    for (file in boardState) {
+        for (rank in boardState[file]) {
+            const boardSquareClass = file + rank
+            document.getElementsByClassName(boardSquareClass)[0].innerHTML = boardState[file][rank]["currentPiece"]
+
+        }
+    }
+}
+
+
 /**
  *
  * @param {Node} rankNode
@@ -52,3 +65,4 @@ function _chessBoardSquareAdder(rankNode, startingColorID, nextColorID, rank) {
 
 makeBoard()
 boardState = getFIDEInitialBoardState()
+placePieces(boardState)

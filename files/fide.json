@@ -1,338 +1,210 @@
 {
     "a": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ],
     "b": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ],
     "c": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ],
     "d": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ],
     "e": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ],
     "f": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ],
     "g": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ],
     "h": [
         {
-            "0": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "1": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "2": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "3": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "4": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "5": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "6": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         },
         {
-            "7": {
-                "currentPiece": "false"
-            }
+            "currentPiece": "false"
         }
     ]
 }

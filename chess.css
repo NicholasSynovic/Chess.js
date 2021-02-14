@@ -1,3 +1,7 @@
+*   {
+    font-size: larger;
+}
+
 /* .boardSquare    {} */
 
 #brownSquare   {background-color: brown; width: 5vw; height: 5vw;}

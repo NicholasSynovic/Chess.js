@@ -2,7 +2,7 @@ function removePotentialMoves(boardState) {
     boardState = boardState[0]
     for (file in boardState) {
         for (rank in boardState[file]) {
-            if (boardState[file][rank]["currentPiece"] == "○") {
+            if (boardState[file][rank]["currentPiece"] == "○" || boardState[file][rank]["currentPiece"] == "●") {
                 boardState[file][rank]["currentPiece"] = ""
             }
         }
@@ -12,7 +12,7 @@ function removePotentialMoves(boardState) {
 /**
  * Displays the availible moves a pawn can make on the board
  * @param {JSON} boardState
- * @param {String} pawn
+ * @param {Pawn} pawn
  * @param {String} coordinates
  */
 function showPotentialMoves_Pawn(boardState, pawn, coordinates) {
@@ -33,3 +33,7 @@ function showPotentialMoves_Pawn(boardState, pawn, coordinates) {
         return NaN
     }
 }
+
+function _initialMove
+
+console.log(boardState)

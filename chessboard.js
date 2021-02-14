@@ -43,33 +43,6 @@ function placePieces(boardState) {
     }
 }
 
-
-
-/**
- * Displays the availible moves a pawn can make on the board
- * @param {JSON} boardState
- * @param {String} pawn
- * @param {String} coordinates
- */
-function showPotentialMoves_Pawn(boardState, pawn, coordinates) {
-    const splitCoordinates = coordinates.split("")
-    const originalRank = splitCoordinates[1]
-    const originalFile = splitCoordinates[0]
-    if (pawn == whitePawn) {
-        // Move up (6 to 0)
-        if (boardState[0][originalFile][originalRank - 1]["currentPiece"] == "") {
-            boardState[0][originalFile][originalRank - 1]["currentPiece"] = "○"
-            placePieces(boardState)
-        }
-        // Take diagnol
-    }
-    else {
-        // Move down (1 to 7)
-        // Take diagnol
-        return NaN
-    }
-}
-
 /**
  * Appends the board sqaures to the DOM
  * @param {Node} rankNode
@@ -83,6 +56,7 @@ function _chessBoardSquareAdder(rankNode, startingColorID, nextColorID, rank) {
 
         // Below are the observers
         piece.onmouseover = function () { showPotentialMoves_Pawn(boardState, this.innerHTML, this.className) }
+
         piece.onmouseleave = function () { removePotentialMoves(boardState) }
         // End of observers
 

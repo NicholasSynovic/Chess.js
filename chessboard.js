@@ -2,19 +2,6 @@ const chessBoard = document.getElementById("chessBoard")
 const chessBoardRows = document.getElementsByClassName("chessBoardRow")
 const files = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
-const blackRook = "♜"
-const blackKnight = "♞"
-const blackBishop = "♝"
-const blackQueen = "♛"
-const blackKing = "♚"
-const blackPawn = "♟︎"
-const whitePawn = "♙"
-const whiteRook = "♖"
-const whiteKnight = "♘"
-const whiteBishop = "♗"
-const whiteQueen = "♕"
-const whiteKing = "♔"
-
 
 function getFIDEInitialBoardState() {
     var request = new XMLHttpRequest()
@@ -56,15 +43,7 @@ function placePieces(boardState) {
     }
 }
 
-function removePotentialMoves(boardState) {
-    boardState = boardState[0]
-    for (file in boardState) {
-        for (rank in boardState[file])
-            if (boardState[file][rank]["currentPiece"] == "○") {
-                boardState[file][rank]["currentPiece"] = ""
-            }
-    }
-}
+
 
 /**
  * Displays the availible moves a pawn can make on the board
@@ -72,7 +51,7 @@ function removePotentialMoves(boardState) {
  * @param {String} pawn
  * @param {String} coordinates
  */
-function showMoves_Pawn(boardState, pawn, coordinates) {
+function showPotentialMoves_Pawn(boardState, pawn, coordinates) {
     const splitCoordinates = coordinates.split("")
     const originalRank = splitCoordinates[1]
     const originalFile = splitCoordinates[0]
@@ -101,8 +80,12 @@ function showMoves_Pawn(boardState, pawn, coordinates) {
 function _chessBoardSquareAdder(rankNode, startingColorID, nextColorID, rank) {
     for (pieceCount = 0; pieceCount < 8; pieceCount++) {
         var piece = document.createElement("td")
-        piece.onmouseover = function () { showMoves_Pawn(boardState, this.innerHTML, this.className) } // This appends the selector method
+
+        // Below are the observers
+        piece.onmouseover = function () { showPotentialMoves_Pawn(boardState, this.innerHTML, this.className) }
         piece.onmouseleave = function () { removePotentialMoves(boardState) }
+        // End of observers
+
         if (pieceCount % 2 == 0) {
             piece.id = startingColorID
         }

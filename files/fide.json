@@ -1,7 +1,10 @@
 {
     "a": [
         {
-            "currentPiece": "false"
+            "currentPiece": "♜"
+        },
+        {
+            "currentPiece": "♟︎"
         },
         {
             "currentPiece": "false"
@@ -16,13 +19,10 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♖"
         }
     ],
     "b": [
@@ -30,7 +30,10 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♟︎"
+        },
+        {
+            "currentPiece": "♞"
         },
         {
             "currentPiece": "false"
@@ -42,18 +45,18 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♘"
         }
     ],
     "c": [
         {
-            "currentPiece": "false"
+            "currentPiece": "♝"
+        },
+        {
+            "currentPiece": "♟︎"
         },
         {
             "currentPiece": "false"
@@ -68,18 +71,18 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♗"
         }
     ],
     "d": [
         {
-            "currentPiece": "false"
+            "currentPiece": "♛"
+        },
+        {
+            "currentPiece": "♟︎"
         },
         {
             "currentPiece": "false"
@@ -94,18 +97,18 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♕"
         }
     ],
     "e": [
         {
-            "currentPiece": "false"
+            "currentPiece": "♚"
+        },
+        {
+            "currentPiece": "♟︎"
         },
         {
             "currentPiece": "false"
@@ -120,18 +123,18 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♔"
         }
     ],
     "f": [
         {
-            "currentPiece": "false"
+            "currentPiece": "♝"
+        },
+        {
+            "currentPiece": "♟︎"
         },
         {
             "currentPiece": "false"
@@ -146,18 +149,18 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♗"
         }
     ],
     "g": [
         {
-            "currentPiece": "false"
+            "currentPiece": "♞"
+        },
+        {
+            "currentPiece": "♟︎"
         },
         {
             "currentPiece": "false"
@@ -172,18 +175,18 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♘"
         }
     ],
     "h": [
         {
-            "currentPiece": "false"
+            "currentPiece": "♜"
+        },
+        {
+            "currentPiece": "♟︎"
         },
         {
             "currentPiece": "false"
@@ -198,13 +201,10 @@
             "currentPiece": "false"
         },
         {
-            "currentPiece": "false"
+            "currentPiece": "♙"
         },
         {
-            "currentPiece": "false"
-        },
-        {
-            "currentPiece": "false"
+            "currentPiece": "♖"
         }
     ]
 }
